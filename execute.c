@@ -9,14 +9,14 @@
 #include "shell.h"
 
 /**
- * executeCmd - creates a child process to execute a cmd
+ * executeCmd -will create a child process to execute a cmd
  *
- * @program: command that will be executed
- * @command: arguments of command
- * @env: current environment
- * @shpack: struct with shell information
+ * @program: command that is   executed
+ * @command: argument of command
+ * @env: current environ
+ * @shpack: struct with shell info
  *
- * Return: pointer to the value in the environment,
+ * Return: pointer to the value in the enviro,
  * or NULL if there is no match
  *
  */

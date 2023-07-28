@@ -2,7 +2,7 @@
 #include "shell.h"
 
 /**
- * str_concat - concatenates two strings
+ * str_concat -it concatenates two strings
  * @s1: string1
  * @s2: string2
  *

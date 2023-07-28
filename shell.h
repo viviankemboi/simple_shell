@@ -4,7 +4,7 @@
 #include <sys/types.h>
 
 /**
- * struct Hshpack - struct containing important shell info
+ * structures Hshpack -a structures containing important shell info
  * @hshname: name of the shell (argv[0])
  * @buffer: full buffer written in prompt
  * @cmd: command written after prompt
@@ -39,11 +39,11 @@ typedef struct Hshpack
 } hshpack;
 
 /**
- * struct b_ins - struct for built ins
+ * structures b_ins - structures for built ins
  * @cmd: built in
  * @f: function of built in
  *
- * Description: Struct for calling built in functions
+ * Description: Structures for calling built in functions
  *
  */
 typedef struct b_ins
@@ -53,11 +53,11 @@ typedef struct b_ins
 } b_ins;
 
 /**
- * struct Helps - struct for built ins
+ * structures Helps - structures for built ins
  * @built: built in command
  * @h: help function of built in
  *
- * Description: Struct for calling built in functions
+ * Description: Structures for calling built in functions
  *
  */
 typedef struct Helps

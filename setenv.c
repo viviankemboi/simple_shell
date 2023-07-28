@@ -3,7 +3,7 @@
 #include "shell.h"
 
 /**
- * free_doubpoint - frees a double pointer array of strings
+ * free_doubpoint -is frees and double pointer array of strings
  * (must end in NULL)
  *
  * @p: double pointer to free
@@ -24,7 +24,7 @@ void free_doubpoint(char **p)
 	free(p);
 }
 /**
- * _copydoublep - copies an array of strings (double pointer)
+ * _copydoublep -it copies an array of strings (double pointer)
  *
  * @p: double pointer to copy
  * @old_size: original size of P
@@ -73,7 +73,7 @@ char **_copydoublep(char **p, int old_size, int new_size)
 	return (copy);
 }
 /**
- * _strlendp - calculates length of double pointer (ending in NULL)
+ * _strlendp -it calculate length of double pointer (ending in NULL)
  * @s: double pointer
  *
  * Return: Length of double pointer
@@ -91,9 +91,9 @@ int _strlendp(char **s)
 	return (i);
 }
 /**
- * _setenv - overwrite an env variable or creates it
+ * _setenv -it overwrite an env variable or create it
  *
- * @env: array of env variables
+ * @env: array of env variable
  * @variable: env variable to set
  * @value: value to set
  * @shpack: struct with shell info

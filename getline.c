@@ -4,13 +4,13 @@
 
 #define BSIZE 4
 /**
- * _memset - fills memory with constant byte
- * @s: memory area
+ * _memset - fill  memory with constant byte
+ * @s: memory  area
  * @b: constant byte b
  * @n: first n bytes of memory area pointed by s
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and errno is set appropriate.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -24,9 +24,9 @@ char *_memset(char *s, char b, unsigned int n)
  * _memcpy - copies memory
  * @dest: destination
  * @src: source
- * @n: size of memory to copy
+ * @n: size of memo to copy
  *
- * Return: Returns memory copied
+ * Return: Return memory copied
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -37,12 +37,12 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 /**
- * _realloc - reallocates a memory block using malloc and free
+ * _realloc - reallocate a memory block using malloc and free
  * @ptr: pointer to modify
  * @old_size: current size of memory
  * @new_size: size memory will now have
  *
- * Return: Pointer to reallocated memory
+ * Return: Pointer to reallocate memory
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -81,10 +81,10 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
  * _getline - read a string or a line from an input stream
  * @buffer: pointer to a space where the stdin read will be saved
  * as a string
- * @bufsize: current size of buffer (must be given as 0 initially)
+ * @bufsize: current size of buffer (must be given as 0 init)
  * @fd: stream to read
  *
- * Return: Number of Characters Read
+ * Return: Number of Character Read
  */
 int _getline(char **buffer, size_t *bufsize, int fd)
 {

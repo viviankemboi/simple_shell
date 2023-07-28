@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * printsHelp - prints help of help built in
+ * printsHelp -it prints help of help built in
  *
  * Return: No Return
  */

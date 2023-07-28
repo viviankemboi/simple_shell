@@ -2,8 +2,8 @@
 #include "shell.h"
 
 /**
- * _strcpy - copy a source input ont destinated input
- * @dest: target where will be stored the input
+ * _strcpy - copy a source input onto destinated input
+ * @dest: targets where it will be stored the input
  * @src: source to copy from
  *
  *
@@ -24,7 +24,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strlen - function that returns the length of a string
+ * _strlen -its function  returns the length of a string
  * @s: string address
  *
  *
@@ -38,7 +38,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strdup - function that returns a pointer to a newly allocated space
+ * _strdup -its functions  return a pointer to a newly allocated space
  * in memory, which contains a copy of the string given as a parameter
  * @str: source to copy
  *

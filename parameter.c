@@ -7,9 +7,9 @@
 #include <signal.h>
 #include "shell.h"
 /**
- * getParameters - obtains parameters from buffer of prompt
+ * getParameters -it obtains parameters from buffer of prompt
  * @raw_buffer: raw_buffer
- * @shpack: struct containing shell info
+ * @shpack: structure contain shell info
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.

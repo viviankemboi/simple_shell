@@ -2,7 +2,7 @@
 #include "shell.h"
 
 /**
- * help_unsetenv - prints help of unsetenv built in
+ * help_unsetenv -it prints help of unsetenv built in
  *
  * Return: No Return
  */
@@ -17,7 +17,7 @@ void help_unsetenv(void)
 }
 
 /**
- * help_cd - prints help of cd built in
+ * help_cd -it prints help of cd built in
  *
  * Return: No Return
  */
@@ -40,7 +40,7 @@ void help_cd(void)
 	_puts("    is used; -1 otherwise.\n");
 }
 /**
- * help_help - prints help of help built in
+ * help_help -it prints help of help built in
  *
  * Return: No Return
  */
@@ -59,7 +59,7 @@ void help_help(void)
 	_puts("    option is given.\n");
 }
 /**
- * help_alias - prints help of alias built in
+ * help_alias - it prints help of alias built in
  *
  * Return: No Return
  */

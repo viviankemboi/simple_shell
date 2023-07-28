@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 /**
- * _pathcheck - check if current dir must be added
+ * _pathcheck -it checks if current dir must be added
  * @path: path env variable
  *
  * Return: Pointer to adress of new PATH
@@ -57,10 +57,10 @@ char *_pathcheck(char *path)
 	return (npath);
 }
 /**
- * _path - Searches for a cmd in PATH
+ * _path - Searche for a cmd in PATH
  * @cmd: string contating env variable PATH
- * @env: current environment
- * @shpack: struct containing shell info
+ * @env: current environ
+ * @shpack: structure containing shell info
  *
  * Return: Pointer to adress of cmd in PATH or by itself
  *

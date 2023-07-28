@@ -4,7 +4,7 @@
 #include "shell.h"
 
 /**
- * _copydoublepDel - copies an array of strings (double pointer)
+ * _copydoublepDel -it copy an array of strings (double pointer)
  *
  * @p: double pointer to copy
  * @new_size: size of copy
@@ -43,7 +43,7 @@ char **_copydoublepDel(char **p, int new_size, int jump)
 }
 
 /**
- * _unsetenv - unsets an enviromental variable
+ * _unsetenv -it unsets an enviromental variable
  *
  * @env: array of env variables
  * @variable: env variable to unset
