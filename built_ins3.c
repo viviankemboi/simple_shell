@@ -6,8 +6,8 @@
 #include "shell.h"
 
 /**
- * _pow - gets the result of base to ower
- * @base: base decimal
+ * _pow - get results of base to ower
+ * @base: base deci
  * @pot: power
  *
  * Return: result
@@ -24,11 +24,11 @@ long _pow(long base, long pot)
 }
 
 /**
- * _atoi - convert a char input to int
+ * _atoi - converts a char input to int
  * @s: char input
  *
  *
- * Return: input transformed to integer
+ * Return: inputs transformed to integers
  * On error: -1 inapropiate entry
  */
 
@@ -64,7 +64,7 @@ long _atoi(char *s)
 	return (toReturn);
 }
 /**
- * _strcmp - compares two strings
+ * _strcmp - compares the two strings
  * @s1: string 1
  * @s2: string 2
  *
@@ -83,7 +83,7 @@ int _strcmp(char *s1, char *s2)
 	return (equal);
 }
 /**
- * _isdigit - checks if a character is a digit
+ * _isdigit - check if a character is a digit
  * @c: character
  *
  * Return: 1 if digit, 0 if not
@@ -94,7 +94,7 @@ int _isdigit(int c)
 	return ((c >= 48 && c <= 57) ? 1 : 0);
 }
 /**
- * _isnumber - checks if a string is composed of numbers
+ * _isnumber - check if string is composed of numbers
  * @s: string
  *
  * Return: 1 if string has only numbers, 0 if not

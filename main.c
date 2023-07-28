@@ -8,9 +8,9 @@
 #include "shell.h"
 /**
  * main - Shell Program
- * @ac: count of input parameters to program
- * @av: parameters as input to program
- * @env: unix environment
+ * @ac: count of input parameters to the program
+ * @av: parameters as input to the program
+ * @env: unix environmnt
  *
  * Return: Should only exit through shell inputs
  */
@@ -58,16 +58,16 @@ int main(int ac, char **av, char **env)
 	return (0);
 }
 /**
- * set_struct - initializes shell struct
- * @argv0: name of executable
- * @errn: number of error message
- * @exnum: exit number of shell
- * @relation: relation for logical operators
+ * set_struct - initialize shell structure
+ * @argv0: name of executables
+ * @errn: numbers of error message
+ * @exnum: exits number of shell
+ * @relation: relations for logical operators
  * @run_able: if cmd should be run
  * @env: current environment
- * @unsetnull: check for setting environment to NULL
+ * @unsetnull: checks for setting environmnt to NULL
  *
- * Return: Pointer to struct
+ * Return: Pointer to structure
  *
  */
 hshpack *set_struct(char *argv0, int *errn, int *exnum,
@@ -93,11 +93,11 @@ hshpack *set_struct(char *argv0, int *errn, int *exnum,
 	return (shellpack);
 }
 /**
- * addCmd - adds values to shell struct
- * @shpack: shell struct
- * @buffer: string written after prompt
- * @command: command written after prompt
- * @parameters: parameters of command
+ * addCmd - add the values to shell struct
+ * @shpack: shell structure
+ * @buffer: string that is written after prompt
+ * @command: command that is written after prompt
+ * @parameters: parameter of command
  *
  * Return: No return
  */
@@ -109,8 +109,8 @@ void addCmd(hshpack *shpack, char *buffer, char *command, char **parameters)
 }
 
 /**
- * addPathToCmd - initializes path value of struct
- * @shpack: shell struct
+ * addPathToCmd - initialize path value of structure
+ * @shpack: shell structure
  * @pathCmd: path of cmd written after propmpt
  *
  * Return: No Return

@@ -6,9 +6,9 @@
 #include "shell.h"
 
 /**
- * auxcd2 - auxiliary function of cd built in
- * @shpack: struct containing shell info
- * @currdir: current directory
+ * auxcd2 - auxiliary functn of cd built in
+ * @shpack: structure that contain shell info
+ * @currdir: current dir
  *
  * Return: pointer to HOME or NULL if fail
  */
@@ -25,9 +25,9 @@ char *auxcd2(hshpack *shpack, char *currdir)
 }
 
 /**
- * auxcd - auxiliary function of cd built in
- * @shpack: struct containing shell info
- * @currdir: the current directory
+ * auxcd - auxiliary functn of cd built in
+ * @shpack: structure that contain shell info
+ * @currdir: the current dir
  *
  * Return: Pointer to dir or NULL if fail
  */
@@ -61,7 +61,7 @@ char *auxcd(hshpack *shpack, char *currdir)
 
 /**
  * _cd_cmd - built in command cd
- * @shpack: struct containing shell info
+ * @shpack: structure that contain shell info
  *
  * Return: 1 if succesful, -1 if fail
  */

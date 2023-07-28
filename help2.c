@@ -3,7 +3,7 @@
 #include "shell.h"
 
 /**
- * _puts - prints string to std output
+ * _puts - will print string to std output
  * @s: string (must be NULL terminated)
  *
  * Return: No Return
@@ -13,7 +13,7 @@ void _puts(char *s)
 	write(1, s, _strlen(s));
 }
 /**
- * help_exit - prints help of exit built in
+ * help_exit -will print help of exit built in
  *
  * Return: No Return
  */
@@ -26,7 +26,7 @@ void help_exit(void)
 	_puts("    is that of the last command executed.\n");
 }
 /**
- * help_env - prints help of env built in
+ * help_env - will print help of env built in
  *
  * Return: No Return
  */
@@ -37,7 +37,7 @@ void help_env(void)
 	_puts("    Has no options\n");
 }
 /**
- * help_setenv - prints help of setenv built in
+ * help_setenv - will print help of setenv built in
  *
  * Return: No Return
  */
@@ -53,8 +53,8 @@ void help_setenv(void)
 
 
 /**
- * _help_cmd - help of built in commands
- * @shpack: struct containing shell info
+ * _help_cmd - helps built in commands
+ * @shpack: structure that contain shell info
  *
  * Return: 1 if succesful, -1 if fail
  */

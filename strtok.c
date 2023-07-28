@@ -8,7 +8,7 @@
 #include "shell.h"
 
 /**
- * _strtok - tokenizes a string based on a delimiter
+ * _strtok - tokenize string based on delimiter
  *
  * @str: string to operate
  * @delim: delimiter

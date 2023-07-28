@@ -8,15 +8,15 @@
 #include "shell.h"
 
 /**
- * checkInput - checks for input in after shell prompt
- * @ac: count of main arguments
+ * checkInput - check for input in after shell prompt
+ * @ac: counts main arguments
  * @av: main arguments
  * @bufsize: size of buffer in prompt
  * @buffer: buffer in prompt
- * @shpack: struct of shell info
+ * @shpack: structure of shell information
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and errno is set appropr.
  */
 char **checkInput(int ac, char **av, size_t *bufsize,
 		   char **buffer, hshpack *shpack)
@@ -64,7 +64,7 @@ char **checkInput(int ac, char **av, size_t *bufsize,
 }
 
 /**
- * deleteComment - deletes a commnet inside a command line
+ * deleteComment - deletes a comment inside a command line
  *
  * @str: string to operate
  *

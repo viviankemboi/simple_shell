@@ -4,8 +4,8 @@
 #include "shell.h"
 
 /**
- * rev_str - Reverses a string
- * @s: string to reverse
+ * rev_str - Reverse a string
+ * @s: string to be reversed
  *
  * Return: Nothing
  */
@@ -26,12 +26,12 @@ void rev_str(char *s)
 	}
 }
 /**
- * blen - obtains length of number in base
+ * blen - obtain the length of number in the base
  *
  * @n: number
- * @base: base of number
+ * @base: base of the number
  *
- * Return: length of number
+ * Return: length of the number
  */
 int blen(unsigned long int n, unsigned long int base)
 {
@@ -42,7 +42,7 @@ int blen(unsigned long int n, unsigned long int base)
 	return (i + neg);
 }
 /**
- * _itoa - converts an integer to string
+ * _itoa - convert an integer to a string
  *
  * @n: number
  *
@@ -73,10 +73,10 @@ char *_itoa(int n)
 
 char *_error2(int errn, char *conc2, char *option);
 /**
- * _error - creates a string with error line
- * @errn: number corresponding to type of error
- * @shpack: struct containing shell information
- * @exnum: value of exit the shell should have
+ * _error - create a string with error line
+ * @errn: number of corresponding to type of error
+ * @shpack: structure that contain shell infor
+ * @exnum: value of exit shell should have
  *
  * Return: 0 success, -1 fail
  */
@@ -166,8 +166,8 @@ int _error(int errn, hshpack *shpack, int exnum)
 
 }
 /**
- * _error2 - extra modes for error generation
- * @errn: number corresponding to type of error
+ * _error2 - extra mode for error generation
+ * @errn: number that corresponds to type of error
  * @conc2: error part from _error
  * @option: cmd option thaat
  *

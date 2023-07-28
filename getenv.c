@@ -2,12 +2,12 @@
 #include "shell.h"
 
 /**
- * _getenv - gets an environment variable
+ * _getenv - gets an envirnt var
  *
- * @name: name of environmental variable
- * @env: current environment
+ * @name: name of environmental var
+ * @env: current environmt
  *
- * Return: pointer to the value in the environment,
+ * Return: pointer to the value in the environmt,
  * or NULL if there is no match
  *
  */

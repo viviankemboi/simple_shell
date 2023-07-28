@@ -3,7 +3,7 @@
 
 /**
  * signal_handler - handles ctrl + c in runtime
- * @x: unused value, just for betty
+ * @x: unused value, for betty
  *
  * Return: No return
  */
@@ -14,7 +14,7 @@ void signal_handler(int x)
 }
 /**
  * signal_handler2 - handles ctrl + c during cmd exec
- * @x: unused value, just for betty
+ * @x: unused value, for betty
  *
  * Return: No return
  */
